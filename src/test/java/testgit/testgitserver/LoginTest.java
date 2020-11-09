@@ -23,7 +23,7 @@ public class LoginTest {
 		
 		driver.findElement(By.id("useremail")).sendKeys("testing@test.com");
 		driver.findElement(By.id("userpass")).sendKeys("test123");
-		
+		driver.findElement(By.id("loginsubmit")).click();
 	}
 	
 	
